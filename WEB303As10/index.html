@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link href="form.css" rel="stylesheet" />
+</head>
+<body>
+<form>
+    <section>
+    <label for="username">Enter your username here:</label>
+    <input type="text" name="username" id="username" />
+</section>
+<section>
+    <label for="password">Enter your password here:</label>
+    <input type="password" name="password" id="password" />
+</section>
+<section>
+    <label for="validatePassword">Enter your password again:</label>
+    <input type="password" name="validatePassword" id="validatePassword" />
+</section>
+<section>
+    <label for="checkbox">I accept the terms of service</label>
+    <input type="checkbox" name="checkbox" id="checkbox" />
+</section>
+<section>
+    <select name="selectCountry" id="select" >
+        <option value="" >Select your country</option>
+    </select>
+</section>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="countries.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
